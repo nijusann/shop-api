@@ -1,0 +1,1 @@
+from pydantic import BaseModelclass AddProductRequest(BaseModel):    product_id: int    quantity: int
